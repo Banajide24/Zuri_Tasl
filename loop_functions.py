@@ -62,7 +62,9 @@ def register():
     email = input("What is your email address? \n")
     first_name = input("What is your first name? \n")
     last_name = input("What is your last name? \n")
+    account_type = input("Specify type of account") # specify whether current or savings account
     password = getpass("Create a STRONG password for yourself \n")
+    
 
     account_number = generation_account_number()
 
